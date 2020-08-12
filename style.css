@@ -1,0 +1,14 @@
+body{
+ background-color:rgba(31, 31, 80, 0.007);
+}
+
+h1 {
+  margin:10px
+}
+img {
+  padding:1px;
+  background-color:rgb(144, 163, 184);
+}
+ section {
+ background-color:rgba(31, 31, 80, 0.007)
+}
