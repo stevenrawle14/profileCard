@@ -23,7 +23,10 @@ img {
 
 .ink {
  background-color: white;
- decoration:none;
+}
+
+.ink a:hover {
+background:red;
 }
 
 footer {
