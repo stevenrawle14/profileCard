@@ -23,12 +23,7 @@ img {
 
 .lnk {
  background-color: white;
- font-family: "Times New Roman", Times, serif;
- font-size: 20px;
- text-align: center;
- margin: 10px;
- padding-left: 1px;
- Padding-right: 1px;
+ decoration:none;
 }
 
 footer {
