@@ -29,6 +29,10 @@ img {
 background:red;
 }
 
+.ink a {
+Decoration:none;
+}
+
 footer {
  text-align:center;
 }
