@@ -32,18 +32,36 @@
 					<div class="item">
 							<h3 id="Biography">Biography</h3>
 									
-				<p>Hello.My name is Steven and i live in Miami, Forida. I've been living here in Florida for 10 years now having migrated from the Caribbean.</p>
-				</div>
-				<div class="item">
-					<h3 id="AboutMe">About Me</h3>
-					<p>I enjoy keeping up with innovation across the planet because technology does truly make lives easier.
-						i've become a developer to be apart of the endless industry of innovation and technology. I will be Proficient in web development and web innovation along with my team.
-					</p>
-				</div>
-				<div class="item">
-				<p>My interests include: learning about people, watching films and vegetation </p>
-				</div>
+							<p>Hello.My name is Steven and i live in Miami, Forida. I've been living here in Florida for 10 years now having migrated from the Caribbean.</p>
+					</div>
+					<div class="item">
+							<h3 id="AboutMe">About Me</h3>
+							<p>I enjoy keeping up with innovation across the planet because technology does truly make lives easier.
+								i've become a developer to be apart of the endless industry of innovation and technology. I will be Proficient in web development and web innovation along with my team.
+							</p>
+					</div>
+					<div class="item">
+					<p>My interests include: learning about people, watching films and vegetation </p>
+					</div>
 			    </div>
+			</section>
+			<section>
+				
+					<div class= "projects-title">
+						<div>Current Projects</div>
+					<div>
+			<div class= "projects-section">
+					<div class="item2">
+						<p>Quiz App Project</p>
+						<button> <a href="https://stevenrawle14.github.io/Group-Quiz-App/">Quiz App</a></button>
+						<p>The quiz app showcases the completed challenge of utilizing the jquery methods and Dom to create a function user friendly quiz</p>
+						
+						
+					</div>
+					<div class="item2">Project2</div>
+					<div class="item2">Project3</div>
+
+			</div>
 			</section>
 			<!--/* This is the footer section i am learning about */-->
 				<section>
@@ -73,6 +91,7 @@
 					</div>
 					</nav>
 				</section>
+				
 
 			</main>
 		<section>
@@ -80,6 +99,9 @@
 			<h3>Steven Rawle</h3>
 		</footer>
 		</section>
+		<script>
+
+		</script>
 	</body>
 	<style>
 	body {
@@ -92,6 +114,7 @@
 		background-color:
 	}
 	.item {
+		
 		font-size:15x;
 		margin:1px;
 		
@@ -102,24 +125,56 @@
 	}
 
 	img {
+		
 		padding:5px 5px 5px 5px;
 		background-color:white;
-		margin-top:20px
+		margin-top:20px;
+		text-align:center;
 	
 	}
 
 	.group {
 		display:flex;
-		flex-flow:row wrap;
 		justify-content:center;
-		
-	}
+		}
+	
 	.contact {
 		text-align:center;
 		font-size: 20px;
 	}
+	.projects-section {
+		margin:1px;
+		display:flex;
+		flex-direction: column;
+		justify-content:center,space-between
+	}
+	.projects-title {
+		display: flex;
+		flex-direction:column;
+		justify-content:flex-start;
+		margin:20px
+}
+.item2 {
+	margin:30px
+}
 
-	@media all and (min-width:600px) {
+	@media all and (min-width:800px) {
+
+		.projects-section {
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 50px 250px  50px 250px
+		}
+	.projects-title {
+		display: flex;
+		flex-direction:row;
+		justify-content:flex-start
+}
+.item2 {
+	margin:30px
+}
+
 	.nav {
 		display:flex;
 		flex-direction:row wrap;
@@ -133,36 +188,18 @@
 		text-align:center;
 	}
 
-   /*
-	@media all and (min-width:800px) {
-		body {
-		background-color:black;
-	}
-
-	section {
-		background-color:grey;
-	}
-	.item {
-		font-size: 40px;
-		margin:20px;
-	}
 	.group {
 		display:flex;
-		flex-direction:row;
-		justify-content: space-between;
+		flex-direction:column;
+		align-items:center;
 	}
-	.contact {
-		text-align:center;
-		font-size: 40px;
-	}
-	.nav {
-		display:flex;
-		flex-direction:row wrap;
-	}
-	h3 {
-		text-align:center;
-	}
-	} */
+	
+
+
 	</style>
 
 </html>
+
+
+
+
