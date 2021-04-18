@@ -1,9 +1,8 @@
 <style>
 	#body {
-		background-color:black;
+		background-color: black;
 		/*color:white*/
-		
-	}
+		}
 
 	section {
 		
@@ -22,7 +21,7 @@
 	img {
 		
 		padding:5px 5px 5px 5px;
-		background-color:white;
+		/*background-color:white;*/
 		margin-top:20px;
 		text-align:center;
 	
